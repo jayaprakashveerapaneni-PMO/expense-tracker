@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const CATEGORIES = ['Food', 'Transport', 'Housing', 'Entertainment', 'Health', 'Other']
+const CATEGORIES = ['Food', 'Transport', 'Housing', 'Entertainment', 'Health', 'Other', 'Travel']
 
 const today = () => new Date().toISOString().slice(0, 10)
 
